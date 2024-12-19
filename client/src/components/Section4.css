@@ -1,0 +1,86 @@
+.section4 {
+    padding: 50px 20px;
+    background-color: #FC7307 ;
+    text-align: center;
+  }
+  
+  .section4-heading {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: white;
+  }
+  
+  .button-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  
+  .feature-button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 1rem;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 9999px;
+    transition: background-color 0.3s;
+
+  }
+  
+  .feature-button.active {
+    background-color: black;
+    color: white;
+  }
+  
+  .content-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .feature-image {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 50px #1f1f1f6b;
+  }
+  
+  .text-content {
+    max-width: 600px;
+    text-align: left;
+    color: white;
+  }
+  
+  .text-content h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .text-content p {
+    font-size: 1.2rem;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .button-row{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: .7rem;
+    }
+    .content-row {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .feature-image {
+      width: 100%;
+    }
+  
+    .text-content {
+      text-align: center;
+    }
+  }
+  

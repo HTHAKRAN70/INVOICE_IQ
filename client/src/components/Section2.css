@@ -1,0 +1,64 @@
+.section2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    background-image: url('../assets/section2.png');
+    background-size: cover;
+    background-position: center;
+    padding: 0 20px;
+    padding-inline: 5rem;
+  }
+  
+  .content2 {
+    max-width: 600px;
+    color: #10124F;
+  }
+  
+  .content2 h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .content2 p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .content2 button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #10124F;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%; /* Makes the button wide */
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .section2 {
+      justify-content: center;
+      text-align: center;
+    }
+  
+    .content2 {
+      max-width: 100%;
+      text-align: center;
+    }
+  
+    .content2 h1 {
+      font-size: 2.5rem;
+    }
+  
+    .content2 p {
+      font-size: 1rem;
+    }
+  
+    .content2 button {
+      padding: 8px 16px;
+      font-size: 0.9rem;
+    }
+  }
+  
